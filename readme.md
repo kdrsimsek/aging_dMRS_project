@@ -2,6 +2,8 @@
 
 Quantified metabolite areas using LCModel can be found in "data/dMRS_aging_fitResults.xlsx, including tissue composition. Additionally, b-values for all directions can be found in "data/b_values_from_chrono.xlsx".
 
+For accessing the data through Cardiff University please visit <a href="https://doi.org/10.17035/cardiff.28142579" target="_blank">here</a>.
+
 # Diffusion Analysis
 The scripts for diffusion analysis can be found in "scripts/dMRS_aging_analysis.py". The script fits data to all diffusion models and signal representations and exports the results as JSON file in "data/dMRS_aging_diffAnalysis_least_squares.json".
 The script file in "scritps/dMRS_aging_figures.py" generates the figures in the paper using the exported results file.
@@ -20,4 +22,4 @@ This work, Kadir Şimşek and Marco Palombo are supported by UKRI Future Leaders
 
 # License
 This article is published under an Open Access license and is freely available to the public. The content is licensed under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-For further details about the license, please visit <a href="https://creativecommons.org/" target="_blank"> the Creative Commons website </a>.
+For further details about the license, please visit <a href="https://creativecommons.org/" target="_blank">the Creative Commons website</a>.
