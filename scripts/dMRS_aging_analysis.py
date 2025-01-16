@@ -26,7 +26,7 @@ rc('font', **{'size': 24})
 gamma = 2.67513e2  # in [rad/(ms*mT)]
 
 #### LOAD FITAID RESULTS ####
-df = pd.read_excel("../data/dMRS_aging_fitResults.xlsx", sheet_name='Sheet3')
+df = pd.read_excel("../data/dMRS_aging_fitResults.xlsx", sheet_name='dir-avg-diffusion-data')
 vol_names = df['Volunteers'].unique()
 tissues = ['CEREBELLUM', 'PCC']
 metabs = ["tNAA", "tCho", "tCr"]

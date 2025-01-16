@@ -448,7 +448,7 @@ def plot_ci_bootstrap(x, y, ci_p, linecolor, text_pos, h_align, nboot=500, ax=No
 proj_path = "../"
 
 file = open("../data/dMRS_aging_diffAnalysis_least_squares.json")
-vol_info = pd.read_excel("../data/dMRS_aging_fitResults.xlsx", sheet_name='info subj')
+vol_info = pd.read_excel("../data/dMRS_aging_fitResults.xlsx", sheet_name='tissue-composition')
 vol_ages = vol_info.Age[:-2]
 
 fit_results = json.load(file)

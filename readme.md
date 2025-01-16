@@ -9,7 +9,7 @@ The script file in "scritps/dMRS_aging_figures.py" generates the figures in the 
 
 The scripts require some python libraries: pandas, numpy, lmfit, matplotlib, scipy, json, asyncio, joblib and statsmodels
 
-# Acknowleedgements
+# Acknowledgements
 •	The authors would like to thank Dr. Edward J. Auerbach and Dr. Małgorzata Marjańska for providing us with the dMRS sequence for the Siemens platform and simulating the basis set for spectral fitting.
 •	
 
